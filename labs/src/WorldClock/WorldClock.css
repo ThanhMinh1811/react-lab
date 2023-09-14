@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+.total {
+    width: 420px;
+    height: 100px;
+}
