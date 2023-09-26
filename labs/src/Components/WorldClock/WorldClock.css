@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: left;
+    margin: 5px;
+    width: 350px;
+}
+
+.total {
+    width: 350px;
+    height: 140px;
+    background-color: #f3f3f3;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+.City {
+    font-size: 1.9rem;
+    color: grey;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: baseline;
+    padding-left: 40px;
+}
+
+.Time {
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: baseline;
+    padding-left: 20px;
+}

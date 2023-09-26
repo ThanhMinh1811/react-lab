@@ -1,5 +1,11 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
+  width: 1250px;
 }
 
 .App-logo {
@@ -22,6 +28,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App div {
+  margin-right: 5px;
+}
+
+.WorldClock {
+  width: 1250px;
+  height: 390px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-link {

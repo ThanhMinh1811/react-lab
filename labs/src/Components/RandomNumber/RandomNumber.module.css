@@ -1,0 +1,32 @@
+.container {
+    width: 1700px;
+    height: 1000px;
+}
+
+.wrapper-fisrt-row {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+
+}
+
+.random-result {
+    font-size: 80px;
+}
+
+button {
+    width: 500px;
+    color: white;
+    background-color: #1565C0;
+    height: 50px;
+    font-weight: 500;
+    border-style: none;
+    justify-content: flex-start;
+    margin-left: -1150px;
+}
+
+.text-field {
+    justify-content: end;
+    width: 232px;
+}

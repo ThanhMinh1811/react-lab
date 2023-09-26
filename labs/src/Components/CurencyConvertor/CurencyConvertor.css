@@ -1,0 +1,54 @@
+.container{
+    width: 1200px;
+    font-weight: 600;
+}
+
+table {
+    padding: 20px;
+    border: 2px solid #CDD7E1;
+}
+
+td { 
+    align-items: left;
+    justify-content: left;
+}
+
+.bt {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+input {
+    width: 240px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #CDD7E1;
+    padding: 0px 30px;
+}
+
+.Wu {
+    font-size: small;
+    color: gray;
+    justify-content: left;
+    display: flex;
+    padding-top: 10px;
+}
+
+.transbt {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #CDD7E1;
+    cursor: grab;
+    background-color: white;
+}
+
+.a {
+    display: flex;
+    justify-content: left;
+}
+
+.b {
+    padding-right: 260px;
+}

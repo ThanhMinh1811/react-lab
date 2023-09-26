@@ -1,7 +1,6 @@
 import './WorldClock.css'
 
-function WorldClock({TenThanhPho, MuiGio}) {
-
+function WorldClock({TenThanhPho, MuiGio}) { 
     function convertTime(offset) {
         // create Date object for current location
         var localTime = new Date();
@@ -28,7 +27,7 @@ function WorldClock({TenThanhPho, MuiGio}) {
                     <div className="Time">{convertTime(MuiGio)}</div>
                 </div>
             </div>
-        </div>
+        </div>    
     );
 }
 
